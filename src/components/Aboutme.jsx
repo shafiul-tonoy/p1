@@ -1,6 +1,6 @@
 export default function Aboutme(){
     return (
-        <div className= 'my-5' >
+        <div className= 'my-5 pt-16' id= 'aboutme' >
             <h1 className= 'text-center text-3xl font-bold my-5' >About Me</h1>
             <p className= 'p-5' >
             Hi, I'm a frontend developer with a background in Electrical and Electronics Engineering (EEE). My passion for problem-solving and creativity led me to the exciting world of programming, where I get to build user-friendly and engaging digital experiences.

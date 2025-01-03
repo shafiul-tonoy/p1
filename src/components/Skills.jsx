@@ -4,7 +4,7 @@ import { IoLogoJavascript, IoLogoCss3  } from "react-icons/io";
 
 export default function Skills() {
   return (
-    <div className="my-5">
+    <div className="my-5" id="skills">
       <h1 className="text-center text-3xl font-bold my-5">My Skills</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-3">
         <div className="bg-white p-5 shadow-md rounded-md flex flex-col items-center">

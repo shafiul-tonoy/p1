@@ -3,8 +3,8 @@ import { FaGithub, FaFacebook } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="hero bg-base-200 min-h-[50vh]">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero bg-base-200 min-h-[50vh] pt-16">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
         <img src={img} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 className="text-5xl font-bold">Md.Shafiul Anam</h1>
@@ -16,7 +16,14 @@ export default function Hero() {
             seamless and engaging digital experiences. I'm always eager to
             learn, grow, and bring innovative ideas to life through code.
           </p>
-          <button className="btn btn-primary">Download Resume</button>
+          <button className="btn btn-primary">
+            <a
+              href="/r-1.pdf" 
+              download
+            >
+              Download Resume
+            </a>
+          </button>
           <div className="flex my-5 gap-2">
             <a
               href="https://www.facebook.com/profile.php?id=100074070966828"
